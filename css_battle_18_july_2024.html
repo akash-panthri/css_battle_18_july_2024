@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p></p>
+    <style>
+      * {
+        background: #024817;
+      }
+      p {
+        width: 240px;
+        height: 160px;
+        background: #25834a;
+        margin: 70px 72px;
+        position: relative;
+      }
+      p::after {
+        content: "";
+        width: 60px;
+        height: 200px;
+        background: #48bf7d;
+        position: absolute;
+        top: -20px;
+        left: 90px;
+      }
+    </style>
+  </body>
+</html>
